@@ -12,9 +12,14 @@ def is_enabled(value, default):
 
 class script(object):
     HOME_BUTTONURL_UPDATES = environ.get("HOME_BUTTONURL_UPDATES", 'https://omegalinks.in/ref/GreyMatter6458')
-    START_TXT = environ.get("START_TXT", '''<b>Hello {} 👋🏻 Im Search Bot I can share Movies and Series 😁.</b>
+    START_TXT = environ.get("START_TXT", """<b>ʜɪ ɢᴇɴᴛᴇʟᴍᴀɴ/ʟᴀᴅɪᴇꜱ 🖖ɪ ᴀᴍ ʟɪʟʟʏ ᴡʜᴏ ʟɪᴋᴇꜱ ᴛᴏ ᴡᴏʀᴋ ᴏɴ ᴘʀᴏᴠɪᴅɪɴɢ ᴍᴏᴠɪᴇꜱ ᴡɪᴛʜ ꜱɪᴍᴘʟᴇ ʟɪɴᴋꜱ ᴀᴛ ᴜʟᴛʀᴀ ʜᴅ .
 
-<i>Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴛᴏ sᴇᴇ ᴛʜᴇ ᴍᴀɢɪᴄ ᴏʀ ʀᴇᴀᴅ ᴍᴏʀᴇ ғʀᴏᴍ ᴛʜᴇ ᴍᴇɴᴜ ʙᴇʟᴏᴡ</i>''')
+ꜱᴏ ꜱɪᴍᴘʟʏ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀꜱ ᴀᴅᴍɪɴ ᴀɴᴅ ɢᴇᴛ ᴍᴏᴠɪᴇꜱ ᴡɪᴛʜ ꜱɪᴍᴘʟᴇ ʟɪɴᴋ.
+
+ɴᴏᴛᴇ:- ɪꜰ ʏᴏᴜ ᴅᴏɴ'ᴛ ᴋɴᴏᴡ ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ᴛʜᴇ ᴍᴏᴠɪᴇꜱ 👇
+                   ᴛᴏᴜᴄʜ ᴛʜᴇ "ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ᴍᴏᴠɪᴇꜱ " ʙᴜᴛᴛᴏɴ ᴛᴏ ꜱᴇᴇ ᴛʜᴇ ᴠɪᴅᴇᴏ ᴀɴᴅ ɢᴇᴛ ᴜʟᴛʀᴀ ʜᴅ💜💯
+
+          ᴛʜᴀɴᴋꜱ ʏᴏᴜ❤️‍🔥"""
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝙼𝚈 𝙷𝙴𝙻𝙿 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """<b><i>🤖 ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/OTT_Movies_Search_Bot><b>OTT Search Bot</b></a>\n
