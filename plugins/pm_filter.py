@@ -432,7 +432,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            
+            InlineKeyboardButton('ᎪᎠᎠ ᎷᎬ Ͳϴ ᎽϴႮᎡ ᏀᎡϴႮᏢ', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            ],[
+            InlineKeyboardButton('ՏႮᏴՏᏟᎡᏆᏴᎬ💜', url='https://youtube.com/@rvdhdstatus6503'),
+            InlineKeyboardButton('ႮᏢᎠᎪͲᎬՏ', url='https://t.me/Mksupport1')
+            ],[
+            InlineKeyboardButton('ᎻᎬᏞᏢ 💯', callback_data='help'),
+            InlineKeyboardButton('ᎪᏴϴႮͲ⭐', callback_data='about')
+        ]]       
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.START_TXT.format(query.from_user.mention, temp.U_NAME, temp.B_NAME),
