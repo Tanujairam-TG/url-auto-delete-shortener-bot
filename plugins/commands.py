@@ -52,6 +52,8 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('ᎻᎬᏞᏢ 💯', callback_data='help'),
             InlineKeyboardButton('ᎪᏴϴႮͲ⭐', callback_data='about')
+            ],[
+            InlineKeyboardButton('ᎻϴᏔ Ͳϴ ᎠϴᏔΝᏞϴᎪᎠ ᎷϴᏙᏆᎬՏ⭐', url='https://t.me/firstshowers1/6190')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
