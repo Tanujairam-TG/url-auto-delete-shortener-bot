@@ -439,6 +439,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('ᎻᎬᏞᏢ 💯', callback_data='help'),
             InlineKeyboardButton('ᎪᏴϴႮͲ⭐', callback_data='about')
+            ],[
+            InlineKeyboardButton('ᎻϴᏔ Ͳϴ ᎠϴᏔΝᏞϴᎪᎠ ᎷϴᏙᏆᎬՏ⭐', url='https://t.me/firstshowers1/6190')
         ]]       
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
